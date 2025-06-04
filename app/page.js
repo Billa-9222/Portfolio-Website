@@ -16,6 +16,7 @@ export default function Home() {
         <AboutSection />
         <MyProjects />
         <Contacts />
+        <NavLink />
       </div>
     </main>
   );
