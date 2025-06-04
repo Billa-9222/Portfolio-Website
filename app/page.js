@@ -1,7 +1,6 @@
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
-import NavLink from "./components/NavLink";
 import AboutSection from "./components/AboutSection";
 import MyProjects from "./components/MyProjects";
 import Contacts from "./components/Contacts";
@@ -16,7 +15,6 @@ export default function Home() {
         <AboutSection />
         <MyProjects />
         <Contacts />
-        <NavLink />
       </div>
     </main>
   );
