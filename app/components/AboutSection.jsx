@@ -15,7 +15,7 @@ const Tab_data = [
         <li>HTML</li>
         <li>CSS</li>
         <li>Next.js</li>
-        <li>Tailwind</li>
+        <li>Tailwindcss</li>
       </ul>
     ),
   },

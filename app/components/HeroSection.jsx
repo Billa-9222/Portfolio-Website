@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import img5 from "@/app/assets/images/img5.png";
+import mee1 from "@/app/assets/images/mee1.png";
 import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
@@ -47,9 +47,9 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0 ">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] relative lg:w-[300px] lg:h-[300px]">
+          <div className="rounded-full bg-pink-100 w-[250px] h-[250px] relative lg:w-[300px] lg:h-[300px]">
             <Image
-              src={img5}
+              src={mee1}
               alt="me"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={400}

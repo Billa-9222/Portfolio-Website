@@ -9,7 +9,7 @@ export default function MyProjects() {
       id: 1,
       title: "Typing Test App",
       image: typingTest,
-      link: " https://github.com/Billa-9222/typing-Test.git",
+      link: "https://my-typing-app-3qx4.vercel.app",
       description:
         "A simple typing test app that checks your typing speed and accuracy.",
     },
@@ -17,7 +17,7 @@ export default function MyProjects() {
       id: 2,
       title: "Online Shop for Organic Food",
       image: organicFood,
-      link: "https://github.com/Billa-9222/Online-Shop.git",
+      link: "https://online-shop-beta-eight.vercel.app",
       description:
         "An online shop for organic food that allows users to browse and purchase products.",
     },
@@ -25,7 +25,7 @@ export default function MyProjects() {
       id: 3,
       title: "Persional Portfolio",
       image: portfolio,
-      link: "https://github.com/Billa-9222/first_project.git",
+      link: "https://first-project-one-sandy.vercel.app",
       description: "A simple personal portfolio ",
     },
   ];
