@@ -1,7 +1,7 @@
 "use client";
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
-import imggg from "@/app/assets/images/imggg.jpg";
+import aboutImg from "@/app/assets/images/aboutImg.jpeg";
 import TabButton from "./TabButton";
 import { Content } from "next/font/google";
 
@@ -59,7 +59,7 @@ const currentTab = Tab_data.find((t) => t.id.toLocaleLowerCase() === tab)?.conte
   return (
     <section>
       <div id="about" className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src={imggg} alt="img" width={400} height={400} />
+        <Image src={aboutImg} alt="img" width={400} height={400} />
         <div className="text-white">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
