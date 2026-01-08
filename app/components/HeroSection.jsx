@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import mee1 from "@/app/assets/images/mee1.png";
+import myImage from "@/app/assets/images/myImage.png";
 import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
@@ -18,12 +18,12 @@ const HeroSection = () => {
               sequence={[
                 "Jamila",
                 4000,
-                "23",
+                "24",
                 4000,
                 "Frontend Developer",
                 4000,
-                // "Cool",
-                // 1000,
+                "Golang Developer",
+                4000,
               ]}
               wrapper="span"
               speed={50}
@@ -31,9 +31,11 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-lg mb-6 lg:text-xl">
-            I love turning ideas into beautiful, interactive designs. Front-end
-            development lets me bring imagination to life — and I’m here for
-            every challenge it throws at me.
+            I turn ideas into clean, interactive experiences — and I’m
+            especially passionate about building what works behind the scenes. I
+            started with front-end development, but today my main focus is
+            Golang and backend engineering, where logic, structure, and
+            problem-solving truly excite me.
           </p>
           <div>
             <button className="px-6 py-4 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-yellow-500 hover:bg-slate-200 text-white">
@@ -47,9 +49,9 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0 ">
-          <div className="rounded-full bg-pink-100 w-[250px] h-[250px] relative lg:w-[300px] lg:h-[300px]">
+          <div className="rounded-full bg-orange-200 w-[250px] h-[250px] relative lg:w-[300px] lg:h-[300px]">
             <Image
-              src={mee1}
+              src={myImage}
               alt="me"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={400}

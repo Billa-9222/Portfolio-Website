@@ -16,6 +16,8 @@ const Tab_data = [
         <li>CSS</li>
         <li>Next.js</li>
         <li>Tailwindcss</li>
+        <li>Golang</li>
+        <li>PostreSQL</li>
       </ul>
     ),
   },
@@ -39,6 +41,7 @@ const Tab_data = [
         <li>Python level 1</li>
         <li>web-0</li>
         <li>Javascript levels 1, 2</li>
+        <li>Golang</li>
       </ul>
     ),
   },
@@ -54,26 +57,51 @@ export default function AboutSection() {
     });
   };
 
-const currentTab = Tab_data.find((t) => t.id.toLocaleLowerCase() === tab)?.content;
+  const currentTab = Tab_data.find(
+    (t) => t.id.toLocaleLowerCase() === tab
+  )?.content;
 
   return (
     <section>
-      <div id="about" className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div
+        id="about"
+        className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16"
+      >
         <Image src={aboutImg} alt="img" width={400} height={400} />
         <div className="text-white">
-          <h2 className="text-4xl font-bold mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-            I’m a front-end developer who loves seeing ideas come to life
-            through code. It’s amazing how writing something on a screen can
-            turn into something real, interactive, and beautiful. I’m drawn to
-            this field because it’s always changing — there’s always something
-            new to learn, and I enjoy the challenge it brings. Right now, I’m
-            exploring different areas of development and learning Go alongside
-            my front-end work. I’m focused, responsible, and always curious. I
-            enjoy working alone or with others, and I love discovering new
-            skills through building real projects. My goal is to grow, create,
-            and keep challenging myself with every step.
-          </p>
+          <h2 className="text-4xl font-bold mb-6">About Me</h2>
+
+          <div className="space-y-4 text-base lg:text-lg leading-relaxed">
+            <p>
+              Hi, I’m Jamila. I was born on November 23, 2001, and I’m based in
+              Tajikistan. I chose a self-taught path in programming after
+              discovering a strong passion for building and understanding
+              software through practice.
+            </p>
+
+            <p>
+              I started with Python and front-end technologies (HTML, CSS,
+              JavaScript), and I recently completed learning Golang — a language
+              I feel especially connected to and plan to continue developing
+              deeply. While I enjoy both front-end and back-end work, my main
+              focus is growing as a Golang backend developer.
+            </p>
+
+            <p>
+              I’m still early in my journey, but I’m highly motivated,
+              constantly improving, and genuinely passionate about learning —
+              both programming languages and human languages. I’m fluent in
+              English, Russian, Tajik, and Persian, and I’m currently learning
+              Spanish.
+            </p>
+
+            <p>
+              I communicate easily with people, enjoy teamwork, and have strong
+              skills in discussion, debating, and public speaking. Looking
+              ahead, after strengthening my backend foundation, I’m also
+              interested in exploring AI and machine learning.
+            </p>
+          </div>
           <div className="flex flex-row mt-8 ">
             <TabButton
               selectTab={() => handleTabChange("skills")}

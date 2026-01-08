@@ -2,6 +2,7 @@ import Image from "next/image";
 import typingTest from "@/app/assets/images/typingTest.png";
 import organicFood from "@/app/assets/images/organicFood.png";
 import portfolio from "@/app/assets/images/portfolio.png";
+import goFirst from "@/app/assets/images/goFirst.jpg";
 
 export default function MyProjects() {
   const projects = [
@@ -27,6 +28,13 @@ export default function MyProjects() {
       image: portfolio,
       link: "https://first-project-one-sandy.vercel.app",
       description: "A simple personal portfolio ",
+    },
+    {
+      id: 4,
+      title: "Grade Tracker",
+      image: goFirst,
+      link: "https://github.com/Billa-9222/Grade_Tracker_backend",
+      description: "Grade tracking app",
     },
   ];
 
